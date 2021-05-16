@@ -1,0 +1,3 @@
+protocol NoCityPresentable {
+    func onViewDidLoad()
+}
