@@ -8,7 +8,6 @@ extension UIColor {
     }
 }
 
-// Added change to color Utility
 
 extension CGColor {
     public class var suggestionBackground: CGColor {
