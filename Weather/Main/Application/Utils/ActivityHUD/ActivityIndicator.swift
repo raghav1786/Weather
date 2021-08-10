@@ -8,7 +8,8 @@ class ActivityIndicator {
     private var activityIndicator = UIActivityIndicatorView()
     private var strLabel = UILabel()
     let effectView = UIVisualEffectView(effect: UIBlurEffect(style: .dark))
-    
+
+    // Made changes to activity Indicator.
     public func addActivityIndicator(_ parentView : UIView) {
         setUpFrames(parentView)
         setUpTheme()
