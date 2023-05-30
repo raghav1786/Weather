@@ -67,6 +67,7 @@
 		0EC02055264DBE0B00F74171 /* WeatherCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0204A264DBE0B00F74171 /* WeatherCardViewController.swift */; };
 		0EC02056264DBE0B00F74171 /* WeatherCardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0204C264DBE0B00F74171 /* WeatherCardInteractor.swift */; };
 		0EC02057264DBE0B00F74171 /* WeatherCardInteracting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0204D264DBE0B00F74171 /* WeatherCardInteracting.swift */; };
+		0ED96C302A2623FA005BFE2C /* TestAutomatedPRReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED96C2F2A2623FA005BFE2C /* TestAutomatedPRReviews.swift */; };
 		0EDAA1C126506070008EC0BC /* PopularCitiesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDAA1BF26506070008EC0BC /* PopularCitiesPresenter.swift */; };
 		0EDAA1C226506070008EC0BC /* PopularCitiesPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDAA1C026506070008EC0BC /* PopularCitiesPresentable.swift */; };
 		0EDAA1C726506076008EC0BC /* PopularCitiesBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDAA1C626506076008EC0BC /* PopularCitiesBuilder.swift */; };
@@ -182,6 +183,7 @@
 		0EC0204A264DBE0B00F74171 /* WeatherCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCardViewController.swift; sourceTree = "<group>"; };
 		0EC0204C264DBE0B00F74171 /* WeatherCardInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCardInteractor.swift; sourceTree = "<group>"; };
 		0EC0204D264DBE0B00F74171 /* WeatherCardInteracting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCardInteracting.swift; sourceTree = "<group>"; };
+		0ED96C2F2A2623FA005BFE2C /* TestAutomatedPRReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAutomatedPRReviews.swift; sourceTree = "<group>"; };
 		0EDAA1BF26506070008EC0BC /* PopularCitiesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularCitiesPresenter.swift; sourceTree = "<group>"; };
 		0EDAA1C026506070008EC0BC /* PopularCitiesPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularCitiesPresentable.swift; sourceTree = "<group>"; };
 		0EDAA1C626506076008EC0BC /* PopularCitiesBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularCitiesBuilder.swift; sourceTree = "<group>"; };
@@ -538,6 +540,7 @@
 				0E2DAD09264D918000DD240C /* Assets.xcassets */,
 				0E2DAD0B264D918000DD240C /* LaunchScreen.storyboard */,
 				0E2DAD0E264D918000DD240C /* Info.plist */,
+				0ED96C2F2A2623FA005BFE2C /* TestAutomatedPRReviews.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -1144,6 +1147,7 @@
 				0E039A6D264EE9C2001DDFBF /* NoCityViewable.swift in Sources */,
 				0E2DAD03264D917F00DD240C /* SceneDelegate.swift in Sources */,
 				0EDAA1D22650608F008EC0BC /* PopularCitiesViewController.swift in Sources */,
+				0ED96C302A2623FA005BFE2C /* TestAutomatedPRReviews.swift in Sources */,
 				0E039A69264EE9C2001DDFBF /* NoCityPresentable.swift in Sources */,
 				0E039A75264EEA74001DDFBF /* NoCityInteractor.swift in Sources */,
 				0EFDE17026510BFC00C61396 /* CitySelectedDelegate.swift in Sources */,
