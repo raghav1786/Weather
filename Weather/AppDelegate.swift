@@ -12,6 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationController.viewControllers = [home]
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
+        TestCodeReviews()
         return true
     }
 

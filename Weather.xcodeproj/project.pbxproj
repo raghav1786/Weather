@@ -67,6 +67,7 @@
 		0EC02055264DBE0B00F74171 /* WeatherCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0204A264DBE0B00F74171 /* WeatherCardViewController.swift */; };
 		0EC02056264DBE0B00F74171 /* WeatherCardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0204C264DBE0B00F74171 /* WeatherCardInteractor.swift */; };
 		0EC02057264DBE0B00F74171 /* WeatherCardInteracting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC0204D264DBE0B00F74171 /* WeatherCardInteracting.swift */; };
+		0ED96C322A263357005BFE2C /* TestCodeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED96C312A263357005BFE2C /* TestCodeChanges.swift */; };
 		0EDAA1C126506070008EC0BC /* PopularCitiesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDAA1BF26506070008EC0BC /* PopularCitiesPresenter.swift */; };
 		0EDAA1C226506070008EC0BC /* PopularCitiesPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDAA1C026506070008EC0BC /* PopularCitiesPresentable.swift */; };
 		0EDAA1C726506076008EC0BC /* PopularCitiesBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDAA1C626506076008EC0BC /* PopularCitiesBuilder.swift */; };
@@ -182,6 +183,7 @@
 		0EC0204A264DBE0B00F74171 /* WeatherCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCardViewController.swift; sourceTree = "<group>"; };
 		0EC0204C264DBE0B00F74171 /* WeatherCardInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCardInteractor.swift; sourceTree = "<group>"; };
 		0EC0204D264DBE0B00F74171 /* WeatherCardInteracting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCardInteracting.swift; sourceTree = "<group>"; };
+		0ED96C312A263357005BFE2C /* TestCodeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCodeChanges.swift; sourceTree = "<group>"; };
 		0EDAA1BF26506070008EC0BC /* PopularCitiesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularCitiesPresenter.swift; sourceTree = "<group>"; };
 		0EDAA1C026506070008EC0BC /* PopularCitiesPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularCitiesPresentable.swift; sourceTree = "<group>"; };
 		0EDAA1C626506076008EC0BC /* PopularCitiesBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularCitiesBuilder.swift; sourceTree = "<group>"; };
@@ -405,6 +407,7 @@
 			isa = PBXGroup;
 			children = (
 				0E039A9A264F0888001DDFBF /* Application */,
+				0ED96C312A263357005BFE2C /* TestCodeChanges.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -1091,6 +1094,7 @@
 				0EFBC6CB264FBEE500BFE928 /* WeatherTemperatureViewModel.swift in Sources */,
 				0E039A74264EEA74001DDFBF /* NoCityInteracting.swift in Sources */,
 				0EBBD92A265171E20043DAEA /* ColorUtility.swift in Sources */,
+				0ED96C322A263357005BFE2C /* TestCodeChanges.swift in Sources */,
 				0EFDE17926510C9300C61396 /* PopularCitiesConstants.swift in Sources */,
 				0E039A2A264E4D53001DDFBF /* HomeViewController.swift in Sources */,
 				0EDAA1E1265060AE008EC0BC /* PopularCitiesInteractor.swift in Sources */,
