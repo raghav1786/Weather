@@ -1,6 +1,7 @@
 on:
-  pull_request:
-    types: [opened, synchronize]
+  push:
+    on:
+    - test-pr-reviews-automation
 
 jobs:
   hello_world_job:
@@ -10,6 +11,7 @@ jobs:
       - name: PR Review auto
         uses: raghav1786/pr-review-automation-ai
         with:
+          repo token: ${{ secrets.GITHUB_TOKEN }}
           openai_api_key: ${{ secrets.OPENAI_API_KEY }}
           github_token: ${{ secrets.REPO_TOKEN }}
           github_pr_id: ${{ github.event.number }}
