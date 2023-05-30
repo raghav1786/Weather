@@ -4,7 +4,7 @@ on:
      - "origin/test-automated-code"
 
 jobs:
-  hello_world_job:
+  hello_world_job_test:
     runs-on: ubuntu-latest
     name: PR Review auto
     steps:
