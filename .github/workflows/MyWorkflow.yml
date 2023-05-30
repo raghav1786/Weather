@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     name: PR Review auto
     steps:
-      - name: PR Review auto
+      - name: PR Review auto suggestions
         uses: raghav1786/pr-review-automation-ai@0.0.1
         with:
           repo token: ${{ secrets.GITHUB_TOKEN }}
