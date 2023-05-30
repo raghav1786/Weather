@@ -1,6 +1,7 @@
 on:
-  pull_request:
-    types: [opened, synchronize]
+  push:
+    branches:
+     - "test-automated-code"
 
 jobs:
   hello_world_job:
