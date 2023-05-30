@@ -1,6 +1,7 @@
 on:
-  pull_request:
-    types: [opened, synchronize]
+  push:
+    on:
+     - "test-workflow-ai-automation-pr"
 
 jobs:
   hello_world_job:
