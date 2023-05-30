@@ -9,7 +9,7 @@ jobs:
     name: PR Review auto
     steps:
       - name: PR Review auto
-        uses: raghav1786/pr-review-automation-ai@v3
+        uses: raghav1786/pr-review-automation-ai@0.0.1
         with:
           repo token: ${{ secrets.GITHUB_TOKEN }}
           openai_api_key: ${{ secrets.OPENAI_API_KEY }}
